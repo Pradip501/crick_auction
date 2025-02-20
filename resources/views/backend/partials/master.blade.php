@@ -1,0 +1,6 @@
+@include('backend.partials.header')
+@include('backend.partials.header-top')
+@include('backend.partials.sidebar')
+    @yield('maincontent')
+@include('backend.partials.footer-text')
+@include('backend.partials.footer')
