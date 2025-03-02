@@ -226,4 +226,6 @@ Visit http://your-ec2-public-ip in a browser.
     sudo a2ensite laravel.conf
     sudo systemctl restart apache2
 
+## Step 3: Check the Document Root
 
+**Run this command to verify the content inside /var/www/html/:**
