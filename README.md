@@ -107,4 +107,10 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
     FLUSH PRIVILEGES;
     EXIT;
 
+## Step 6: Install Composer
 
+    curl -sS https://getcomposer.org/installer | php
+    sudo mv composer.phar /usr/local/bin/composer
+    composer -V
+
+Step 7: Clone or Upload Laravel Project
