@@ -16,8 +16,8 @@ return new class extends Migration
             $table->string('name');
             $table->string('image');
             $table->string('role');
-            $table->string('point');
-            $table->string('team');
+            $table->string('point')->nullable();
+            $table->string('team')->nullable();
             $table->timestamps();
         });
     }
