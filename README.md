@@ -78,10 +78,8 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ## Step 2: Connect to Your EC2 Instance
 
     ssh -i your-key.pem ubuntu@your-ec2-public-ip
+    
 ## Step 3: Update and Install Required Packages
-sh
-Copy
-Edit
 
     sudo apt update && sudo apt upgrade -y
     sudo apt install -y apache2 unzip curl git
