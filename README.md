@@ -131,6 +131,6 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
     DB_PORT=3306
-    DB_DATABASE=laravel_db
+    DB_DATABASE="crick_auction"
     DB_USERNAME="crick_auction_user"
     DB_PASSWORD="your_password"
