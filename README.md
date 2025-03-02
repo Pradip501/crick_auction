@@ -277,3 +277,5 @@ Now, try accessing http://3.95.134.195/ again.
     apachectl -M | grep php
 
 **You should see something like:**
+
+    php8.3_module (shared)
