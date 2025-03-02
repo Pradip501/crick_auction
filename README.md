@@ -205,3 +205,5 @@ Visit http://your-ec2-public-ip in a browser.
         AllowOverride All
         Require all granted
     </Directory>
+
+**Save and exit the file.**
