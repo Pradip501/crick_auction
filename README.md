@@ -89,8 +89,9 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
     sudo apt install -y php-cli php-mbstring php-xml php-bcmath php-tokenizer php-zip php-curl php-common php-pdo php-mysql php-pear php-gd
 
     **Verify PHP installation:
-    
-    php -v
+    ```bash
+        php -v
+    ```
 
 ## Step 5: Install MySQL
 
