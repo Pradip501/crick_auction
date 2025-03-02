@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## Steps to deploy laravel project on 
+## Steps to deploy laravel project on Ubuntu server AWS.
 
 ## Step 1: Launch an EC2 Instance
 
