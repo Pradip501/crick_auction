@@ -155,4 +155,16 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
     sudo nano /etc/apache2/sites-available/laravel.conf
 
-**Add the following:
+**Add the following:**
+    <VirtualHost *:80>
+        ServerAdmin webmaster@localhost
+        DocumentRoot /var/www/html/laravel-project/public
+
+        <Directory /var/www/html/laravel-project>
+            AllowOverride All
+            Require all granted
+        </Directory>
+
+        ErrorLog ${APACHE_LOG_DIR}/error.log
+        CustomLog ${APACHE_LOG_DIR}/access.log combined
+    </VirtualHost>
