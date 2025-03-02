@@ -185,6 +185,7 @@ Visit http://your-ec2-public-ip in a browser.
 ## Disable Directory Listing
 
 **To prevent users from seeing your project files:**
+
 **Open the Apache configuration file**
 
     sudo vim /etc/apache2/apache2.conf
@@ -196,5 +197,3 @@ Visit http://your-ec2-public-ip in a browser.
         AllowOverride None
         Require all granted
     </Directory>
-
-
