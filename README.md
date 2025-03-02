@@ -237,4 +237,4 @@ Visit http://your-ec2-public-ip in a browser.
 **You can also try setting the correct ownership and permissions:**
 
     sudo chown -R www-data:www-data /var/www/html/crick_auction
-sudo chmod -R 775 /var/www/html/crick_auction/storage /var/www/html/crick_auction/bootstrap/cache
+    sudo chmod -R 775 /var/www/html/crick_auction/storage /var/www/html/crick_auction/bootstrap/cache
