@@ -114,3 +114,4 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
     composer -V
 
 Step 7: Clone or Upload Laravel Project
+
