@@ -186,4 +186,5 @@ Visit http://your-ec2-public-ip in a browser.
 
     sudo vim /etc/apache2/apache2.conf
 
-
+**To prevent users from seeing your project files:**
+\*\*
