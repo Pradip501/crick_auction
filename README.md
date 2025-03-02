@@ -244,9 +244,8 @@ Visit http://your-ec2-public-ip in a browser.
     sudo systemctl restart apache2
 
 ## Step 3: Check Apache’s Running Sites
-    
-    sudo apachectl -S
 
+    sudo apachectl -S
 
 It should show your virtual host configuration. If you see the default Apache configuration as active, that means your custom configuration is not being used.
 
@@ -264,4 +263,6 @@ Now, try accessing http://3.95.134.195/ again.
 
     sudo apt update
     sudo apt install libapache2-mod-php8.3
+
+    sudo a2enmod php8.3
 
