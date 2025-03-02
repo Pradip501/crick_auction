@@ -120,3 +120,5 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
     cd crick_auction
 
 **Or manually upload files using SFTP.**
+
+## Step 8: Configure Laravel
