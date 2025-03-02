@@ -100,6 +100,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 -   Create a database and user:
 
+    ```bash
     sudo mysql -u root -p
 
     CREATE DATABASE crick_auction;
@@ -107,6 +108,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
     GRANT ALL PRIVILEGES ON crick_auction.\* TO 'crick_auction'@'localhost';
     FLUSH PRIVILEGES;
     EXIT;
+    ```
 
 ## Step 6: Install Composer
 
