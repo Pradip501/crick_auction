@@ -198,7 +198,7 @@ Visit http://your-ec2-public-ip in a browser.
         Require all granted
     </Directory>
 
-**Change Options Indexes FollowSymLinks to Options -Indexes +FollowSymLinks**
+- **Change Options Indexes FollowSymLinks to Options -Indexes +FollowSymLinks**
 
     <Directory /var/www/>
         Options -Indexes +FollowSymLinks
@@ -206,4 +206,4 @@ Visit http://your-ec2-public-ip in a browser.
         Require all granted
     </Directory>
 
-**Save and exit the file.**
+- **Save and exit the file.**
