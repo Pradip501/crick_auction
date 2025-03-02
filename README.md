@@ -259,3 +259,9 @@ It should show your virtual host configuration. If you see the default Apache co
     php artisan view:clear
 
 Now, try accessing http://3.95.134.195/ again.
+
+**Install the PHP 8.3 Apache Module (If Missing)**
+
+    sudo apt update
+    sudo apt install libapache2-mod-php8.3
+
