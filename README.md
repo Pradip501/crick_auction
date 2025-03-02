@@ -184,13 +184,13 @@ Visit http://your-ec2-public-ip in a browser.
 
 ## Disable Directory Listing
 
-**To prevent users from seeing your project files:**
+- **To prevent users from seeing your project files:**
 
-**Open the Apache configuration file**
+- **Open the Apache configuration file**
 
     sudo vim /etc/apache2/apache2.conf
 
-**Find this section:**
+- **Find this section:**
 
     <Directory /var/www/>
         Options Indexes FollowSymLinks
