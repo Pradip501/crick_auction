@@ -253,7 +253,9 @@ It should show your virtual host configuration. If you see the default Apache co
 ## Step 4: Clear Apache Cache & Laravel Cache
 
     sudo systemctl restart apache2
-php artisan config:clear
-php artisan cache:clear
-php artisan route:clear
-php artisan view:clear
+    php artisan config:clear
+    php artisan cache:clear
+    php artisan route:clear
+    php artisan view:clear
+
+
