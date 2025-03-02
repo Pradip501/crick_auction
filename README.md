@@ -179,3 +179,5 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ## Step 12: Restart Services & Test
 
     sudo systemctl restart apache2
+
+-Visit http://your-ec2-public-ip in a browser.
