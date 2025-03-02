@@ -188,3 +188,13 @@ Visit http://your-ec2-public-ip in a browser.
 **Open the Apache configuration file**
 
     sudo vim /etc/apache2/apache2.conf
+
+**Find this section:**
+
+    <Directory /var/www/>
+        Options Indexes FollowSymLinks
+        AllowOverride None
+        Require all granted
+    </Directory>
+
+
