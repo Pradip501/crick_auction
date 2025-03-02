@@ -197,3 +197,5 @@ Visit http://your-ec2-public-ip in a browser.
         AllowOverride None
         Require all granted
     </Directory>
+
+**Change Options Indexes FollowSymLinks to Options -Indexes +FollowSymLinks
