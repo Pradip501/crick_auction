@@ -150,9 +150,9 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
     php artisan migrate --seed
 
 ## Step 11: Configure Apache for Laravel
-**Create a new virtual host configuration file:
 
-sh
-Copy
-Edit
-**
+**Create a new virtual host configuration file:**
+
+    sudo nano /etc/apache2/sites-available/laravel.conf
+
+**Add the following:
