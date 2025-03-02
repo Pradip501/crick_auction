@@ -158,7 +158,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 **Add the following:**
     <VirtualHost *:80>
         ServerAdmin webmaster@localhost
-        DocumentRoot /var/www/html/laravel-project/public
+        DocumentRoot /var/www/html/crick_auction/public
 
         <Directory /var/www/html/laravel-project>
             AllowOverride All
