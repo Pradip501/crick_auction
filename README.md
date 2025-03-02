@@ -221,4 +221,9 @@ Visit http://your-ec2-public-ip in a browser.
 
     ls /etc/apache2/sites-enabled/
 
-**
+**You should see laravel.conf (or your custom config file). If it’s missing, enable it manually:**
+
+    sudo a2ensite laravel.conf
+    sudo systemctl restart apache2
+
+
