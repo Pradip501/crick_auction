@@ -258,4 +258,4 @@ It should show your virtual host configuration. If you see the default Apache co
     php artisan route:clear
     php artisan view:clear
 
-
+Now, try accessing http://3.95.134.195/ again.
