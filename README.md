@@ -134,3 +134,5 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
     DB_DATABASE="crick_auction"
     DB_USERNAME="crick_auction_user"
     DB_PASSWORD="your_password"
+
+
