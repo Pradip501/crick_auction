@@ -267,3 +267,5 @@ Now, try accessing http://3.95.134.195/ again.
     sudo a2enmod php8.3
 
 **And restart Apache:**
+
+    sudo systemctl restart apache2
