@@ -208,3 +208,9 @@ Visit http://your-ec2-public-ip in a browser.
 
 **Save and exit the file.**
 
+**clearing the cache:**
+
+    php artisan config:clear
+    php artisan cache:clear
+    php artisan route:clear
+    php artisan view:clear
