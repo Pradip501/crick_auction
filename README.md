@@ -90,7 +90,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 1. **Verify PHP installation:
     ```bash
-        php -v
+    php -v
     ```
 
 ## Step 5: Install MySQL
