@@ -136,11 +136,5 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
     DB_PASSWORD="your_password"
 
 ## Step 9: Install Dependencies & Set Permissions
-sh
-Copy
-Edit
 
-
-    curl -sS https://getcomposer.org/installer | php
-    sudo mv composer.phar /usr/local/bin/composer
-    composer -V
+    
