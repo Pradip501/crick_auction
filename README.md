@@ -214,3 +214,5 @@ Visit http://your-ec2-public-ip in a browser.
     php artisan cache:clear
     php artisan route:clear
     php artisan view:clear
+
+Step 1: Disable the Default Apache Site
