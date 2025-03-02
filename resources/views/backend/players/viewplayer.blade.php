@@ -60,7 +60,7 @@ View Player
                     </li> -->
 
                             <li class="nav-item">
-                                <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#profile-change-password">Change Password</button>
+                                <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#profile-change-password">Auction View</button>
                             </li>
 
                         </ul>
