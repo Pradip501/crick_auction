@@ -67,13 +67,13 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Step 1: Launch an EC2 Instance
 
-    - Go to the AWS Management Console.
-    - Launch a new EC2 instance with Ubuntu 22.04 (or any preferred version).
-    - Choose an instance type (e.g., t2.micro for free tier).
-    - Configure security groups :
-        - Allow SSH (port 22) for your IP.
-        - Allow HTTP (port 80) and HTTPS (port 443) for public access.
-        - Allow port 3306 if you plan to connect to a MySQL database remotely.
+- Go to the AWS Management Console.
+- Launch a new EC2 instance with Ubuntu 22.04 (or any preferred version).
+- Choose an instance type (e.g., t2.micro for free tier).
+- Configure security groups :
+    - Allow SSH (port 22) for your IP.
+    - Allow HTTP (port 80) and HTTPS (port 443) for public access.
+    - Allow port 3306 if you plan to connect to a MySQL database remotely.
 
 ## Step 2: Connect to Your EC2 Instance
 
