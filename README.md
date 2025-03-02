@@ -118,3 +118,5 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
     cd /var/www/html
     git clone https://github.com/Pradip501/crick_auction.git
     cd crick_auction
+
+**Or manually upload files using SFTP.**
