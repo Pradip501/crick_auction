@@ -124,5 +124,13 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ## Step 8: Configure Laravel
 
     sudo cp .env.example .env
-    sudo nano .env
+    sudo vim .env
 
+**Update the database settings:**
+
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=laravel_db
+    DB_USERNAME=laravel_user
+    DB_PASSWORD=your_password
