@@ -269,3 +269,6 @@ Now, try accessing http://3.95.134.195/ again.
 **And restart Apache:**
 
     sudo systemctl restart apache2
+
+**Verify the PHP Module is Enabled **
+Check the loaded modules:
