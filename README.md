@@ -229,3 +229,10 @@ Visit http://your-ec2-public-ip in a browser.
 ## Step 3: Check the Document Root
 
 **Run this command to verify the content inside /var/www/html/:**
+
+    ls -lah /var/www/html/crick_auction/
+
+**Make sure you see the public folder inside it. If it’s missing, your Laravel project might not be properly placed.**
+
+**You can also try setting the correct ownership and permissions:**
+
