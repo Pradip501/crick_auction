@@ -248,3 +248,4 @@ Visit http://your-ec2-public-ip in a browser.
     sudo apachectl -S
 
 
+It should show your virtual host configuration. If you see the default Apache configuration as active, that means your custom configuration is not being used.
