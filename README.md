@@ -103,8 +103,6 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
     CREATE DATABASE crick_auction;
     CREATE USER '<laravel_user>'@'localhost' IDENTIFIED BY 'your_password';
-    GRANT ALL PRIVILEGES ON crick_auction.* TO 'laravel_user'@'localhost';
+    GRANT ALL PRIVILEGES ON crick_auction.\* TO 'laravel_user'@'localhost';
     FLUSH PRIVILEGES;
     EXIT;
-
-
