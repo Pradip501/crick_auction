@@ -137,4 +137,10 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Step 9: Install Dependencies & Set Permissions
 
-    
+    composer install --no-dev --optimize-autoloader
+    php artisan key:generate
+
+**Set correct permissions:**
+
+    sudo chown -R www-data:www-data /var/www/html/laravel-project
+sudo chmod -R 775 /var/www/html/laravel-project/storage /var/www/html/laravel-project/bootstrap/cache
