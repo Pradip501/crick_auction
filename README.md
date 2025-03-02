@@ -147,4 +147,6 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Step 10: Run Migrations & Seed Data
 
-    
+    php artisan migrate --seed
+
+## Step 11: Configure Apache for Laravel
