@@ -156,11 +156,12 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
     sudo nano /etc/apache2/sites-available/laravel.conf
 
 **Add the following:**
+
     <VirtualHost *:80>
         ServerAdmin webmaster@localhost
         DocumentRoot /var/www/html/crick_auction/public
 
-        <Directory /var/www/html/laravel-project>
+        <Directory /var/www/html/crick_auction>
             AllowOverride All
             Require all granted
         </Directory>
@@ -168,3 +169,9 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
         ErrorLog ${APACHE_LOG_DIR}/error.log
         CustomLog ${APACHE_LOG_DIR}/access.log combined
     </VirtualHost>
+
+**Enable the configuration:**
+
+    sudo a2ensite laravel.conf
+    sudo a2enmod rewrite
+    sudo systemctl restart apache2
