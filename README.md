@@ -177,3 +177,5 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
     sudo systemctl restart apache2
 
 ## Step 12: Restart Services & Test
+
+    sudo systemctl restart apache2
