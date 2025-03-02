@@ -279,3 +279,8 @@ Now, try accessing http://3.95.134.195/ again.
 **You should see something like:**
 
     php8.3_module (shared)
+
+**Restart Apache**
+
+    sudo systemctl restart apache2
+
