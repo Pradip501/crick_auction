@@ -92,4 +92,8 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
     php -v
 
+## Step 5: Install MySQL
 
+    sudo apt install -y mysql-server
+    sudo mysql_secure_installation
+- Create a database and user:
