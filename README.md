@@ -218,3 +218,7 @@ Visit http://your-ec2-public-ip in a browser.
 ## Step 1: Disable the Default Apache Site
 
 **Run the following command to check enabled sites:**
+
+    ls /etc/apache2/sites-enabled/
+
+**
