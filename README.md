@@ -101,9 +101,9 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
     sudo mysql -u root -p
 
-    CREATE DATABASE laravel_db;
+    CREATE DATABASE crick_auction;
     CREATE USER 'laravel_user'@'localhost' IDENTIFIED BY 'your_password';
-    GRANT ALL PRIVILEGES ON laravel_db.* TO 'laravel_user'@'localhost';
+    GRANT ALL PRIVILEGES ON crick_auction.* TO 'laravel_user'@'localhost';
     FLUSH PRIVILEGES;
     EXIT;
 
