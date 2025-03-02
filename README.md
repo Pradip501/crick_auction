@@ -122,3 +122,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 **Or manually upload files using SFTP.**
 
 ## Step 8: Configure Laravel
+
+    sudo cp .env.example .env
+    sudo nano .env
+
