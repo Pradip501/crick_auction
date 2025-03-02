@@ -249,3 +249,5 @@ Visit http://your-ec2-public-ip in a browser.
 
 
 It should show your virtual host configuration. If you see the default Apache configuration as active, that means your custom configuration is not being used.
+
+## Step 5: Clear Apache Cache & Laravel Cache
