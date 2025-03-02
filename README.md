@@ -274,3 +274,6 @@ Now, try accessing http://3.95.134.195/ again.
 
 **Check the loaded modules:**
 
+    apachectl -M | grep php
+
+**You should see something like:**
