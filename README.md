@@ -99,7 +99,7 @@
 
 **Create a new virtual host configuration file:**
 
-    sudo nano /etc/apache2/sites-available/laravel.conf
+    sudo vim /etc/apache2/sites-available/laravel.conf
 
 **Add the following:**
 
