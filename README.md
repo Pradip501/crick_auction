@@ -242,3 +242,7 @@ Now, try accessing http://3.95.134.195/ again.
 
 **Ensure the DocumentRoot points to Laravel's public folder.**
 **After modifications, restart Apache:**
+
+    sudo systemctl restart apache2
+
+    
