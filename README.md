@@ -242,7 +242,8 @@ Now, try accessing http://3.95.134.195/ again.
 
 **Ensure the DocumentRoot points to Laravel's public folder.**
     
-    
+    DocumentRoot /var/www/html/crick_auction/public
+
 **After modifications, restart Apache:**
 
     sudo systemctl restart apache2
