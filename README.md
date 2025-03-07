@@ -51,8 +51,7 @@
     FLUSH PRIVILEGES;
     EXIT;
 
-    GRANT ALL PRIVILEGES ON crick_auction.* TO 'crick_auction_user'@'localhost' IDENTIFIED BY 'crick123';
-FLUSH PRIVILEGES;
+    
 
 ## Step 6: Install Composer
 
