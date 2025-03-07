@@ -232,5 +232,6 @@ Now, try accessing http://3.95.134.195/ again.
 
 ## If still Showing Apache default page follow below steps
 
-    
+    sudo update-alternatives --config php
+
 
