@@ -51,8 +51,6 @@
     FLUSH PRIVILEGES;
     EXIT;
 
-    
-
 ## Step 6: Install Composer
 
     curl -sS https://getcomposer.org/installer | php
@@ -234,4 +232,6 @@ Now, try accessing http://3.95.134.195/ again.
 
     sudo update-alternatives --config php
 
+## check if required PHP modules are installed:
 
+    
