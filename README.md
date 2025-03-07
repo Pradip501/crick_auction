@@ -238,6 +238,7 @@ Now, try accessing http://3.95.134.195/ again.
 
 ## If using a virtual host, check if it's properly configured:
 
-    sudo nano /etc/apache2/sites-available/000-default.conf
+    sudo vim /etc/apache2/sites-available/000-default.conf
 
-**
+**Ensure the DocumentRoot points to Laravel's public folder.**
+**After modifications, restart Apache:**
