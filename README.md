@@ -79,7 +79,7 @@
     DB_PORT=3306
     DB_DATABASE="crick_auction"
     DB_USERNAME="crick_auction_user"
-    DB_PASSWORD="your_password"
+    DB_PASSWORD="crick123"
 
 ## Step 9: Install Dependencies & Set Permissions
 
