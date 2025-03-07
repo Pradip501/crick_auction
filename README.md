@@ -235,3 +235,9 @@ Now, try accessing http://3.95.134.195/ again.
 ## check if required PHP modules are installed:
 
     sudo apt install php-mbstring php-xml php-bcmath php-curl php-zip php-tokenizer php-common
+
+## If using a virtual host, check if it's properly configured:
+
+    sudo nano /etc/apache2/sites-available/000-default.conf
+
+**
