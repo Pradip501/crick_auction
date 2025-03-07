@@ -86,7 +86,7 @@
 
 **Set correct permissions:**
 
-    sudo chown -R www-data:www-data /var/www/html/laravel-project
+    sudo chown -R www-data:www-data /var/www/html/crick_auction
     sudo chmod -R 775 /var/www/html/laravel-project/storage /var/www/html/laravel-project/bootstrap/cache
 
 ## Step 10: Run Migrations & Seed Data
