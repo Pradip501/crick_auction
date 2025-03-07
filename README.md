@@ -46,7 +46,7 @@
     sudo mysql -u root -p
 
     CREATE DATABASE crick_auction;
-    CREATE USER 'crick_auction_user'@'localhost' IDENTIFIED BY '12345';
+    CREATE USER 'crick_auction_user'@'localhost' IDENTIFIED BY 'crick123';
     GRANT ALL PRIVILEGES ON crick_auction.\* TO 'crick_auction_user'@'localhost';
     FLUSH PRIVILEGES;
     EXIT;
